@@ -4,12 +4,7 @@
 }
 
 
-#myservices {
-    text-align: left;
-    padding-left: 40px;
-}
-
-#uiux, #website, #mobile, #ai {
+#services {
     text-align: left;
     padding-left: 40px;
 }
@@ -77,4 +72,45 @@
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+/* ===== PORTFOLIO ===== */
+#portfolio {
+  color: white;
+  padding: 40px;
+  background:#498467 ;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.portfolio-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-card {
+  background: #B2D3A8;
+  width: 220px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.portfolio-card h3 {
+  margin: 8px 0 5px;
+  color: #292F36;
+}
+
+.portfolio-card p {
+  font-size: 16px;
+  color: #0B5563;
 }
