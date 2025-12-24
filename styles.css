@@ -1,12 +1,29 @@
+#header {
+    background: white;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* pushes menu to right */
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
 #headingone {
-    text-align: laft;
+    text-align: center;
     margin-left: 10px;
 }
 
 
 #services {
-    text-align: left;
-    padding-left: 40px;
+    text-align: center;
 }
 
 #logo img {
@@ -44,7 +61,7 @@
 /* ===== ABOUT ===== */
 #about {
   padding: 40px;
-  text-align: left;
+  text-align: center;
 }
 
 /* ===== CONTACT ===== */
@@ -77,8 +94,8 @@
 /* ===== PORTFOLIO ===== */
 #portfolio {
   color: white;
-  padding: 40px;
-  background:#498467 ;
+  padding: 20px;
+  background:#075688 ;
   text-align: center;
   border-radius: 20px;
 }
@@ -92,7 +109,7 @@
 }
 
 .portfolio-card {
-  background: #B2D3A8;
+  background: whitesmoke;
   width: 220px;
   padding: 8px;
   border-radius: 5px;
@@ -112,5 +129,5 @@
 
 .portfolio-card p {
   font-size: 16px;
-  color: #0B5563;
+  color: #075688;
 }
