@@ -1,0 +1,80 @@
+#headingone {
+    text-align: laft;
+    margin-left: 10px;
+}
+
+
+#myservices {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#uiux, #website, #mobile, #ai {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#logo img {
+    width: 10%;
+    height: 10%;
+}
+
+#menu a {
+  color: black;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ===== HERO ===== */
+#hero {
+  position: relative;
+}
+
+#hero img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+#hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/* ===== ABOUT ===== */
+#about {
+  padding: 40px;
+  text-align: left;
+}
+
+/* ===== CONTACT ===== */
+#contact {
+  padding: 40px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#contact button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+/* ===== FOOTER ===== */
+#footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
